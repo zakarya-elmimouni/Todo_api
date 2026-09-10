@@ -1,0 +1,39 @@
+# Environnements virtuels Python
+venv/
+env/
+.venv/
+
+# Fichiers Python compilés
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Base de données SQLite locale (celle par défaut en dev)
+*.db
+*.sqlite3
+
+# Git
+.git/
+.gitignore
+
+# Variables d'environnement (contient souvent des secrets !)
+.env
+.env.*
+
+# Fichiers Docker eux-mêmes (pas besoin dans l'image)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Tests et CI (pas nécessaires dans l'image de prod)
+tests/
+.github/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Autres
+README.md

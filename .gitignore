@@ -12,3 +12,4 @@ app/db/__pycache__/
 
 # Databases
 *.db
+*.yml
